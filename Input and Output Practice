@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int num1 = sc.nextInt();
+      System.out.println(num1);
+      
+      float num2 = sc.nextFloat();
+      System.out.println(num2);
+      
+      sc.nextLine();
+      
+      char val = sc.nextLine().charAt(0);
+      System.out.println(val);
+      
+      long num3 = sc.nextLong();
+      System.out.println(num3);
+      
+      double num4 = sc.nextDouble();
+      System.out.println(num4);
+  }
+}
